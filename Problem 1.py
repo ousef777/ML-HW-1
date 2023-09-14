@@ -10,19 +10,6 @@ x1 = np.array(sample["X1"])
 x2 = np.array(sample["X2"])
 x3 = np.array(sample["X3"])
 y = np.array(sample["Y"])
-"""
-x=np.linspace(-10,10,100)
-# Create a second array using sine
-y=np.sin(x)
-# The plot function makes a line chart of one array against another
-plt.plot(x,y,marker="+")
-plt.show()
-display(sample)
-
-print('x1 = ', x1[: 5])
-print('x2 = ', x2[: 5])
-"""
-
 
 def compute_cost(X, y, theta):
     """
